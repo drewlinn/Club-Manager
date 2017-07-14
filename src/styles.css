@@ -1,3 +1,13 @@
+input[text], select, textarea {
+color: black;
+}
+
+div.panel-title {
+  font-family: Garamond;
+  color: #000000;
+  text-shadow: #ffffff;
+}
+
 body {
   margin: 2em;
   background-image: url("http://www.awkwardgeeks.com/wp-content/uploads/dd-dm-1-917x1280.png");
@@ -5,20 +15,19 @@ body {
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
-  font-family: "Celestia Anitqua Medium", Celstia, Antiqua;
+  font-family: Garamond;
 }
 
-body, input[text], button {
-  color: #888;
-  font-family: Cambria, Georgia;
-}
-
-#title {
-
+div.panel-default {
+  padding: 20px;
+  box-shadow: 5px 5px 5px #a5c9ff;
+  background-color: #963131;
+  color: #ffffff;
+  text-shadow: 2px 2px #000000;
 }
 
 nav.navbar{
-  box-shadow: 10px 10px 10px #a5c9ff;
+  box-shadow: 5px 5px 5px #a5c9ff;
   background-color: #000000;
   color: #ffffff;
   text-shadow: 2px 2px #a82d2d;
@@ -30,15 +39,8 @@ nav.navbar{
   width: 100%;
   height: 60px;
   background-color: #000000;
-  box-shadow: 10px 10px 10px 10px #a5c9ff;
+  box-shadow: 5px 5px 5px 5px #a5c9ff;
   padding: 15px;
   color: #ffffff;
   text-shadow: 2px 2px #a82d2d;
-}
-
-div.panel {
-  box-shadow: 10px 10px 5px #888888;
-  background-color: #963131;
-  color: #ffffff;
-  text-shadow: 2px 2px #000000;
 }
