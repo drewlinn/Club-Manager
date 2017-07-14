@@ -5,6 +5,16 @@ body {
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
+  font-family: "Celestia Anitqua Medium", Celstia, Antiqua;
+}
+
+body, input[text], button {
+  color: #888;
+  font-family: Cambria, Georgia;
+}
+
+#title {
+
 }
 
 nav.navbar{
@@ -26,9 +36,9 @@ nav.navbar{
   text-shadow: 2px 2px #a82d2d;
 }
 
-
 div.panel {
   box-shadow: 10px 10px 5px #888888;
   background-color: #963131;
-  text-shadow: 2px 2px #ff0000;
+  color: #ffffff;
+  text-shadow: 2px 2px #000000;
 }
