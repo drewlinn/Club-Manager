@@ -1,15 +1,28 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { MemberService } from '../member.service';
+// import { Member } from '../member.model';
 
 @Component({
-  selector: 'app-member-edit',
+  selector: 'app-edit-member',
   templateUrl: './member-edit.component.html',
-  styleUrls: ['./member-edit.component.css']
+  styleUrls: ['./member-edit.component.css'],
+  providers: [MemberService]
 })
-export class MemberEditComponent implements OnInit {
+export class EditMemberComponent implements OnInit {
+  @Input() selectedMember;
 
-  constructor() { }
+  constructor(private memberService: MemberService) { }
 
   ngOnInit() {
   }
 
+  beginUpdatingMember(memberToUpdate){
+    this.memberService.updateMember(memberToUpdate);
+  }
+
+  beginDeletingMember(memberToDelete){
+    if(confirm("Are you sure you want to remove this member from the club?")){
+      this.memberService.deleteMember(memberToDelete);
+    }
+  }
 }

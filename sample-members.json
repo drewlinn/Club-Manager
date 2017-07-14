@@ -1,0 +1,37 @@
+{ "members": [{
+    "first": "Ben",
+    "last": "Frothingham",
+    "age": "29",
+    "characters": "Jacob Honeycrust, Jedediah Honeycrust, Frothinghammer"
+    }, {
+    "first": "Catlin",
+    "last": "Walker",
+    "age": "32",
+    "characters": "Porggy Bucklebottom, Sir Mary Randy Savage Marsh III, Grog(deceased), Ni(deceased), Mandu"
+    }, {
+    "first": "Faolan",
+    "last": "Thompson",
+    "age": "25",
+    "characters": "The Gnome With Gno Gname, Redwings"
+    }, {
+    "first": "Gabe",
+    "last": "Johnson",
+    "age": "27",
+    "characters": "Aru'Zola, Sir Goose O'Malley, Tobias Sunday"
+    }, {
+    "first": "Pete",
+    "last": "Jensen",
+    "age": "25",
+    "characters": "Wanderer June, Vondar the Red Blade, Captain Mack"
+    }, {
+    "first": "Tyler",
+    "last": "Wilson",
+    "age": "24",
+    "characters": "Psil of Cybin"
+    }, {
+    "first": "Sacha",
+    "last": "Funder",
+    "age": "25",
+    "characters": "Datania"
+  }]
+}
