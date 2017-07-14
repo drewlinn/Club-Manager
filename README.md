@@ -5,7 +5,7 @@
 #### By **Andrew Dalton**
 
 ## Description
-
+  * This is an application designed for managing the members of a Dungeons and Dragons group and their characters.
 
 
 ## Planning
@@ -28,6 +28,8 @@
   | Administrator can create a new member. | "Add new Member" | "Name: Jesse Hughes, Age: 28, Characters: [Skyline] |
   | Administrator can edit a member. | Click "EDIT", Gabriel, Characters: [Aru, Sir Goose O'Malley] | "Characters[Aru, Sir Goose O'Malley, Tobias Sunday]" |
   |Administrator can delete a member. | "Name: Aaron Williams, DELETE" | "This member is no longer in this club" |
+  **Stretch Goal**
+  | Managing Character objects. |
 
 3. Integration
   * index.html, welcome.component, app.component, app.module, and app.routing for application entry, navigation, and integration.
@@ -47,6 +49,32 @@
 * Perform 'npm install' and 'bower install' commands
 * Perform the commands 'ng build' followed by 'ng serve'
 * Open your Web Browser and navigate to 'localhost:4200'
+
+  ## Angular-CLI Troubleshooting
+    ## Development server
+
+    Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+    ## Code scaffolding
+
+    Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
+
+    ## Build
+
+    Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+
+    ## Running unit tests
+
+    Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+    ## Running end-to-end tests
+
+    Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+    Before running the tests make sure you are serving the app via `ng serve`.
+
+    ## Further help
+
+    To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 ## Known Bugs
 
