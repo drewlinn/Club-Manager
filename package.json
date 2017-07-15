@@ -46,5 +46,8 @@
     "ts-node": "~2.0.0",
     "tslint": "~4.5.0",
     "typescript": "~2.2.0"
-  }
+  },
+  "description": "#### Javascript Week 3 Code Review: A Club Manager Application.",
+  "main": "karma.conf.js",
+  "author": ""
 }

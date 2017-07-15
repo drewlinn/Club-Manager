@@ -1,6 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { MemberService } from '../member.service';
-// import { Member } from '../member.model';
 
 @Component({
   selector: 'app-edit-member',
