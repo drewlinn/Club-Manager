@@ -62,8 +62,10 @@
     messagingSenderId: "xxxx"
   };**
 * Make sure to save the new file.
+* Return to the Firebase Console and select your project. Click on the Database option in the side Navbar.
+* Near the top of the page on the blue navbar, select the option that reads RULES; change both the ".read" and ".write" properties from "auth !== null" to "true".
 * In your Web Browser, navigate to 'localhost:4200'
-* The application should successfully be displayed with full funcitonality.
+* The application should successfully be displayed with full functionality.
 
   ## Angular-CLI Troubleshooting
     ## Development server
