@@ -46,8 +46,7 @@
 * In your command line, navigate to the desktop or your desired folder destination.
 * Copy the project's github address (https://github.com/drewlinn/Club-Manager.git)
 * Write in your console the command "git clone" and paste the project address afterward and press enter.
-* Perform 'npm install' and 'bower install' commands
-* Perform the commands 'ng build' followed by 'ng serve'
+* Use your console to navigate to the project directory and perform 'npm install' and 'bower install' commands
 * Create a file called 'api-keys.ts' in the 'src/app' folder of the project directory.
 * Open your browser and navigate to https://console.firebase.google.com/ in your web browser.
 * If necessary, create an account.
@@ -64,6 +63,7 @@
 * Make sure to save the new file.
 * Return to the Firebase Console and select your project. Click on the Database option in the side Navbar.
 * Near the top of the page on the blue navbar, select the option that reads RULES; change both the ".read" and ".write" properties from "auth !== null" to "true".
+* In your console (make sure you are still in the project directory), perform the commands 'ng build' followed by 'ng serve'
 * In your Web Browser, navigate to 'localhost:4200'
 * The application should successfully be displayed with full functionality.
 
