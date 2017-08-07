@@ -19,6 +19,7 @@
         * bootstrap - installed with bower for the front end, this provides us with some rudimentary page styling tools.
 
   2. Specifications
+  
   | Behavior | Input | Output |
   | :--------| :---- | :------|
   | User can visit an about page to get more information about the club. | Click 'about' | "Our club is about..." |
